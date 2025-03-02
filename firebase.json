@@ -3,6 +3,8 @@
     "public": "public",
     "ignore": [
       "firebase.json",
+      "package.json",
+      "index.js",
       "**/.*",
       "**/node_modules/**"
     ],
@@ -12,8 +14,5 @@
         "destination": "/index.html"
       }
     ]
-  },
-  "storage": {
-    "rules": "storage.rules"
   }
 }
